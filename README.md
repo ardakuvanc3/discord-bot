@@ -15,4 +15,3 @@ async def on_raw_reaction_add(payload):
             member = guild.get_member(payload.user_id)
             await member.add_roles(role)
  ``` 
-* kısmının çoğaltılması
