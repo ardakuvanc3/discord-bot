@@ -1,10 +1,12 @@
-﻿Gereklilikler:
+# Gereklilikler
 
-1- "pip install requirements.txt" komutu ile gerekli kütüphanelerin yüklenmesinin yapılması.
-2- Token bilgisi verilesi.
-3- Rollerin ve emojilerin düzenlenmesi.
-4-
+[Github JeaFriday](https://github.com/JeaFriday)
 
+* "pip install requirements.txt" komutu ile gerekli kütüphanelerin yüklenmesinin yapılması.
+* Token bilgisi verilesi.
+* Rollerin ve emojilerin düzenlenmesi.
+
+ ```dart
 @bot.event
 async def on_raw_reaction_add(payload):
     guild_id = payload.guild_id
@@ -14,5 +16,5 @@ async def on_raw_reaction_add(payload):
         if role is not None:
             member = guild.get_member(payload.user_id)
             await member.add_roles(role)
-        
-kısmının çoğaltılması
+ ``` 
+* kısmının çoğaltılması
