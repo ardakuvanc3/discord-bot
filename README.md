@@ -1,11 +1,9 @@
 # Gereklilikler
 
-[Github JeaFriday](https://github.com/JeaFriday)
-
 * "pip install requirements.txt" komutu ile gerekli kütüphanelerin yüklenmesinin yapılması.
 * Token bilgisi verilesi.
 * Rollerin ve emojilerin düzenlenmesi.
-
+* Aşağıdaki kodun çoğaltılıp rollere göre düzenlenmesi
  ```dart
 @bot.event
 async def on_raw_reaction_add(payload):
